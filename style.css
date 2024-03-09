@@ -1,0 +1,180 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: rgb(29, 29, 57);
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  background-color: rgb(37, 37, 110);
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.first {
+  font-size: 1.8em;
+  font-weight: bold;
+  content: attr(data-text);
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.home{
+  display:flex;
+}
+
+.home img{
+  height: 610px;
+  width: 320px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+nav ul {
+  justify-content: space-around;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin-left: 25px;
+  font-size: 1.2em;
+  content: attr(data-text);
+  color: white;
+  font-weight: bold;
+}
+
+.home {
+  display: flex;
+}
+
+.intro {
+  margin: 150px 150px;
+  font-size: 2.4em;
+  font-weight: 700;
+}
+
+.intro2 {
+  margin: 130px -220px;
+  color: yellow;
+  font-weight: 900;
+  font-size: 2.9em;
+}
+
+.intro3 {
+  margin: 160px -225px;
+  font-size: 2.4em;
+  font-weight: 700;
+}
+
+.intro4 {
+  margin: 130px 250px;
+  font-size: 2.9em;
+  font-weight: 900;
+  color: rgb(235, 180, 79);
+}
+
+.btn {
+  margin: 0px 130px;
+  margin-bottom: -100px;
+  height: 50px;
+  width: 150px;
+  background-color: rgb(253, 249, 249);
+  color: rgb(13, 11, 11);
+  padding: 20px;
+  border-radius: 13px;
+  font-weight: bold;
+  font-size: 1em;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 2em;
+  margin-left: 50px;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-left: 50px;
+}
+
+.edu1 {
+  height: 130px;
+  width: 87%;
+  border: 2px solid black;
+  border-radius: 8px;
+  font-size: 1.2em;
+  background-color: azure;
+  color: black;
+  margin-left: 60px;
+  font-weight: 800;
+  font-weight: bold;
+  padding: 20px;
+  margin: 20px;
+}
+
+.pro1 {
+  height: 95px;
+  width: 87%;
+  border: 2px solid black;
+  border-radius: 8px;
+  font-size: 1.2em;
+  background-color: azure;
+  color: black;
+  margin-left: 60px;
+  font-weight: 800;
+  font-weight: bold;
+  padding: 20px;
+  margin: 20px;
+}
+
+.wev {
+  display: flex;
+  flex-direction: row;
+}
+
+img {
+  margin-top: -190px;
+  margin-left: 500px;
+}
+
+.talk {
+  font-size: 1.2em;
+  font-weight: 700;
+  margin-left: 50px;
+}
+
+input {
+  height: 130px;
+  width: 700px;
+  font-size: 1.1em;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+.dev {
+  height: 240px;
+  margin-top: -150px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+}
+
+li:hover{
+  font-size: x-large;
+  text-decoration: underline;
+  color:antiquewhite;
+}
